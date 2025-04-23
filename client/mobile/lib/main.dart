@@ -1,6 +1,18 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 
 void main() {
+=======
+import 'package:mobile/GettingStarted.dart';
+import 'package:mobile/Register.dart';
+import 'package:mobile/screens/student/student_dashboard';
+import 'package:mobile/screens/tutor/tutor_home.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+>>>>>>> d5cf0dd8cfddaa4a54cdc380fea01ef19d3d521a
   runApp(const MyApp());
 }
 
@@ -10,6 +22,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -118,5 +131,8 @@ class _MyHomePageState extends State<MyHomePage> {
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
+=======
+    return MaterialApp(debugShowCheckedModeBanner: false, home: SignUpScreen());
+>>>>>>> d5cf0dd8cfddaa4a54cdc380fea01ef19d3d521a
   }
 }
